@@ -46,7 +46,7 @@ button:hover {
     max-width: 1200px;
     display: flex;
     justify-content: center;
-    padding: 8px;
+    padding: 16px;
     margin: auto;
 }
 
@@ -65,13 +65,12 @@ button:hover {
     flex: 1;
     justify-content: right;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 .hero {
     background-color: #1F2937;
-    padding: 8px;
-    gap: 16px;
+    padding: 32px;
 }
 
 .hero-left {
@@ -84,4 +83,76 @@ button:hover {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+}
+
+.body .inside {
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+}
+
+.body img {
+    max-width: 128px;
+    max-height: auto;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.information {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}   
+
+.information-header {
+    flex: auto;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 32px;
+}
+
+.information-card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items:  center;
+    flex-wrap: wrap;
+    max-width: 128px;
+    max-height: auto;
+    margin: 32px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote .inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+    max-width: 900px;
+}
+
+.quote .inside .text {
+    flex: 1;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    flex-wrap: wrap;
+}
+
+.quote .inside .attributation {
+    flex: 1;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 32px;
+    text-align: right;
 }
